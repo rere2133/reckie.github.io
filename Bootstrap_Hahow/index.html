@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hahow 好學校</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css" />
+  <link rel="shortcut icon" href="https://hahow.in/favicon.ico" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/stylemax768.css">
+</head>
+
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-1 fixed-top">
+      <!-- <div class="container  m-auto "> -->
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo-black.23fa8b87.svg" width="135" alt="" loading="lazy" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-between w-100 bg-light">
+            <div class="d-lg-flex align-items-center">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <span> <i class="fas fa-th-large mx-1"></i>探索課程</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">所有課程</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">音樂</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">語言</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">攝影</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span>
+                    <i class="fas fa-pencil-alt"></i>
+                    我要開課
+                  </span>
+                  <span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- search hover 待解決 -->
+              <li class="nav-item search-wrap">
+                <div class="search-wrap">
+                  <a class="nav-link search" href="#"><span>
+                      <i class="fas fa-search"></i>
+                    </span>
+                    <span class="sr-only">(current)</span></a>
+
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                      搜尋
+                    </button>
+                  </form>
+                </div>
+              </li>
+            </div>
+
+            <div class="d-lg-flex">
+              <li class="nav-item">
+                <a class="nav-link" href="#">我的課程</a>
+              </li>
+              <li class="nav-item nav-item-icon">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+              </li>
+              <li class="nav-item nav-item-icon">
+                <a class="nav-link" href="#">
+                  <i class="far fa-bell"></i>
+                </a>
+              </li>
+              <li class="nav-item nav-item-icon">
+                <a class="nav-link" href="#">登入</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <!-- </div> -->
+    </nav>
+  </header>
+  <main>
+    <div class="bg"></div>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container mt-5">
+        <div class="intro justify-content-center">
+          <h1 class="display-4 text-center">Hahow 精選課程</h1>
+          <p class="lead mx-auto text-center">
+            Hahow 好學校，取自台語「學校」<span>ha̍k-hāu</span> 的發音（ㄏㄚˇ
+            ㄏㄠ），首創全球第一個募資型跨領域線上課程平台。讓我們為你精選 10
+            種以上不同類型的影音課程，隨選即上把握零碎時間，輕鬆學那些學校不會教的事！
+          </p>
+        </div>
+        <div class="row feature justify-content-center">
+          <div class="item text-center col-4">
+            <img src="https://hahow.in/static/media/point_time.c1c7b6a1.png" alt="" />
+            <h4>跨越時空限制</h4>
+            <p>
+              跨越時空限制，只要有網路，你就可以隨時隨地、不限裝置輕鬆上課。
+            </p>
+          </div>
+          <div class="item col-4">
+            <img src="images/無限觀看.png" alt="" />
+            <h4>無限次數觀看</h4>
+            <p>課程一旦購買，就可以無限次數、沒有期限的觀看！</p>
+          </div>
+          <div class="item col-4">
+            <img src="images/碎片.png" alt="" />
+            <h4>碎片化地學習</h4>
+            <p>大章節與小單元的設計，讓你用自己的學習節奏吸收內容。</p>
+          </div>
+        </div>
+
+        <div class="row flex-column align-items-center justify-content-center seperate">
+          <div class="seper-text">
+            <p>立即上課</p>
+          </div>
+          <div class="seperate-line"></div>
+        </div>
+        <div class="middle-drop dropdown">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            所有課程
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">所有課程</a>
+            <a class="dropdown-item" href="#">音樂</a>
+            <a class="dropdown-item" href="#">語言</a>
+            <a class="dropdown-item" href="#">攝影</a>
+          </div>
+        </div>
+        <ul class="middle-nav row">
+          <li><a href="#">所有課程</a></li>
+          <li><a href="#">音樂</a></li>
+          <li><a href="#">語言</a></li>
+          <li><a href="#">攝影</a></li>
+          <li><a href="#">藝術</a></li>
+          <li><a href="#">設計</a></li>
+          <li><a href="#">人文</a></li>
+          <li><a href="#">行銷</a></li>
+          <li><a href="#">程式</a></li>
+          <li><a href="#">投資理財</a></li>
+          <li><a href="#">職場技能</a></li>
+          <li><a href="#">手作</a></li>
+          <li><a href="#">生活品味</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="card col-md-3 col-12">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img1"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  Podcast 新手攻略課程：0 到 1 必學指南
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-3 col-12">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img2"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  紙上的美妝師：連禾時尚彩妝畫
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-3 col-12">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img1"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  概念式時尚插畫｜我的小小時裝
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-3 col-12">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img2"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  省錢攝影術：零基礎拍好美食＆
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-3 col-12">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img1"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  資料變決策！從零上手 Tableau
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-3 col-12">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img2"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  互動藝術程式創作入門 Creative
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-3 col-12">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img1"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  出門好狗兒：抓住狗狗注意力，
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-3 col-12">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img2"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  薩克斯風 - 13 堂基本功吹出專輯
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-3 col-12 web">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img1"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  0-2 歲寶寶父母必修課 - 專業治
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-3 col-12 web">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img2"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  用實際案例學設計-美編的
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-3 col-12 web">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img1"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  【折扣只到 8/29】HTML、
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-3 col-12 web">
+          <div>
+            <div class="card-circle"></div>
+            <div class="tag-wrap">
+              <div class="card-tag">上課囉！</div>
+              <div class="card768">
+                <div class="bg-img img2"></div>
+                <div class="bookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h3 class="card-title">
+                  【折扣只到 8/29】 jQuery 打造互動性網頁
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="card768">
+                  <div class="d-flex align-items-baseline">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="card-text col-6">
+                      5則評價
+                    </p>
+                  </div>
+                  <p class="card-text">
+                    課時 100 分鐘
+                  </p>
+                  <div class="price rwd768">
+                    $ 2550
+                  </div>
+                  <i class="far fa-bookmark rwd768 text-right"></i>
+                  <div class="d-flex justify-content-between align-items-baseline web">
+                    <p class="card-text web">
+                      同學 20 人
+                    </p>
+                    <div class="price web">
+                      $ 2550
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="underline"></div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row flex-column align-items-center justify-content-center seperate mt-4">
+        <a href="#" class="seper-link">
+          <p>觀看更多課程</p>
+        </a>
+        <div class="seperate-line"></div>
+      </div>
+    </div>
+    <div class="bg2"></div>
+    <div class="container">
+      <div class="bottom-slogon mt mb-4">
+        <h2>在 Hahow 學得更好？</h2>
+      </div>
+      <div class="row bottom-banner p-5 mx-auto">
+        <div class="bt-feature col-12 col-md-4 d-flex rwd768-flex">
+          <img src="images/bt-feature1.png" alt="">
+          <div class="text-item">
+            <h4 class="mb-3">交作業問問題</h4>
+            <p>筆記功能幫你隨時做註記，上完課還可以繳交作業或向老師互動發問，獲得更深入的課程解析。</p>
+          </div>
+        </div>
+        <div class="bt-feature col-12 col-md-4 d-flex rwd768-flex">
+          <img src="images/bt-feature2.png" alt="">
+          <div class="text-item">
+            <h4 class="mb-3">申請完課證明</h4>
+            <p>成功完課後申請「完課證明」，還可以連動 LinkedIn，讓學習歷程成為你亮眼的人生成績單。</p>
+          </div>
+        </div>
+        <div class="bt-feature col-12 col-md-4 d-flex rwd768-flex">
+          <img src="images/bt-feature3.png" alt="">
+          <div class="text-item">
+            <h4 class="mb-3">Hahow Point</h4>
+            <p>首創學習點數，只要在站內完成相關任務，就可以累積 Hahow Point，並在購買課程時折抵相對應的金額，自我投資還能省荷包。</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="bottom-slogon mt-5 ">
+        <h3>來 Hahow 享受學習，發掘自己的潛能與熱情！</h3>
+        <p>有任何不懂的地方想要與我們聯繫？歡迎參考下方「常見問題」或點擊右下方藍綠色小視窗，讓線上客服夥伴給予及時協助。祝你學習愉快：）</p>
+        <!-- <div class="QAbtn mx-auto my-4"> -->
+        <a href="#" class="QAbtn bottom-slogon mx-auto my-4">
+          <p>常見問題</p>
+        </a>
+        <!-- </div> -->
+      </div>
+
+
+
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="selector col-md-6 col-12">
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              TW 台灣 <span>新台幣 (TWD)</span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">TW 台灣 <span>新台幣 (TWD)</span></a>
+              <a class="dropdown-item" href="#">HK 香港 <span>港幣 (HKD))</span></a>
+              <a class="dropdown-item" href="#">MY 馬來西亞 <span>林吉特 (MYR))</span></a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              繁體中文
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">繁體中文</a>
+              <a class="dropdown-item" href="#">English</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex col-md-6 col-12">
+          <ul class="col-4">
+            <li>
+              <h6>關於</h6>
+            </li>
+            <li><a href="#">關於我們</a></li>
+            <li><a href="#">加入 Hahow</a></li>
+            <li><a href="#">使用者條款</a></li>
+            <li><a href="#">服務契約</a></li>
+            <li><a href="#">隱私權政策</a></li>
+            <li><a href="#">功能更新</a></li>
+          </ul>
+          <ul class="col-4">
+            <li>
+              <h6>幫助</h6>
+            </li>
+            <li><a href="#">企業學習方案</a></li>
+            <li><a href="#">異業合作洽談</a></li>
+            <li><a href="#">常見問題</a></li>
+            <li><a href="#">課程許願池</a></li>
+            <li><a href="#">兌換課程</a></li>
+            <li><a href="#">線上課程禮物卡</a></li>
+            <li><a href="#">填課前問券拿優惠</a></li>
+          </ul>
+          <ul class="col-4">
+            <li>
+              <h6>追蹤動態</h6>
+            </li>
+            <li><a href="#">Fackbook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LINE</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- <div class="bg">
+
+    </div> -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+    integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
