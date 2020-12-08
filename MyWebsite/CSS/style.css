@@ -390,7 +390,7 @@ article {
   position: absolute;
   top: 0;
   left: 0;
-  background: #3f7aaade;
+  background: #3976a8de;
   color: #f8f8f8;
   /* white-space: nowrap; */
   padding: 6rem 0;
@@ -530,10 +530,10 @@ article {
   width: 100%;
 }
 
-.autobi {
+/* .autobi {
   height: 100%;
   margin-bottom: 2rem;
-}
+} */
 
 footer {
   position: relative;
