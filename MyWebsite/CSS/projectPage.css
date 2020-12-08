@@ -15,7 +15,8 @@ a:hover {
   padding-left: 5rem;
 }
 .nav {
-  height: 10vh;
+  height: 8vh;
+  background-color: #4787bb;
   /* border-bottom: 1px solid #000; */
   box-shadow: 0 0 1px 1px #eee;
   margin-bottom: 5rem;
@@ -29,7 +30,7 @@ a:hover {
   transform: translateY(-50%);
 }
 .back:hover {
-  color: #58a4b0;
+  color: #fff;
   font-weight: 400;
 }
 .back::after {
@@ -38,7 +39,7 @@ a:hover {
   bottom: 0;
   left: 0;
   width: 0%;
-  border-bottom: 1px solid #58a4b0;
+  border-bottom: 1px solid #fff;
   transition: all 0.5s;
 }
 .back:hover::after {
@@ -70,6 +71,9 @@ h2 {
   color: #999;
   font-weight: 300;
   font-style: italic;
+}
+.nav .caption {
+  color: #fff;
 }
 
 .content {
