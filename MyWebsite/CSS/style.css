@@ -84,7 +84,7 @@ ul {
 /* header */
 .header-bg {
   width: 100%;
-  min-width: 400px;
+  min-width: 350px;
   min-height: 700px;
   position: relative;
   background: url(../img/christin-hume-Hcfwew744z4-unsplash.jpg);
@@ -121,6 +121,7 @@ ul {
 }
 .profile .d-flex {
   margin-bottom: 3rem;
+  white-space: nowrap;
 }
 .profile h3 {
   font-size: 18px;
@@ -250,11 +251,14 @@ ul {
 /* article */
 /* skill */
 #Skill {
-  padding: 4rem 0 1rem 0;
+  padding: 4rem 1rem;
 }
 
 article {
   position: relative;
+}
+.skill {
+  padding: 1rem;
 }
 .skill h2 {
   padding-bottom: 3rem;
@@ -459,7 +463,7 @@ article {
 
 /* experience */
 #Experience {
-  padding: 4rem 0 1rem 0;
+  padding: 4rem 1rem;
 }
 #Experience h2 {
   margin-bottom: 3rem;
