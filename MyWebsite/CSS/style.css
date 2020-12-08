@@ -434,7 +434,7 @@ article {
 }
 .prj-img1 {
   /* margin: 0 auto; */
-  background: url("/img/Perspective\ App\ Screens\ Mock-Up.png") no-repeat
+  background: url("../img/Perspective\ App\ Screens\ Mock-Up.png") no-repeat
     center center;
   background-size: cover;
   margin-bottom: 1rem;
@@ -443,7 +443,7 @@ article {
   /* margin: 0 auto; */
   /* margin: 1rem; */
 
-  background: url("/img/web-mockup-V3-front.png") no-repeat center center;
+  background: url("../img/web-mockup-V3-front.png") no-repeat center center;
   background-size: cover;
   margin-bottom: 1rem;
 }
