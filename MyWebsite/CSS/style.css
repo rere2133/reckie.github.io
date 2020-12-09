@@ -87,7 +87,7 @@ ul {
   min-width: 350px;
   min-height: 700px;
   position: relative;
-  background: url(../img/christin-hume-Hcfwew744z4-unsplash.jpg);
+  background: url("../img/christin-hume-Hcfwew744z4-unsplash.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -229,22 +229,6 @@ ul {
     opacity: 1;
   }
 }
-/* .attitude-dark:hover.attitude-dark::after {
-  color: transparent;
-} */
-
-/* .attitude:hover {
-  transform: translate(-1px, 1px);
-  box-shadow: 2px 2px 5px 1px #bbb;
-  background-color: rgba(255, 255, 255, 0.9);
-} */
-
-/* .attitude p {
-  color: #999;
-  margin-bottom: 0px;
-  font-size: 16px;
-  line-height: 1.8rem;
-} */
 
 /* profile end */
 
@@ -413,6 +397,13 @@ article {
 }
 .prj-item:hover.change2::after {
   content: "官網切版練習 Hahow";
+}
+@media (max-width: 767px) {
+  .prj-item::after,
+  .prj-item:hover::after {
+    width: 0%;
+    background: transparent;
+  }
 }
 
 .prj-img {
