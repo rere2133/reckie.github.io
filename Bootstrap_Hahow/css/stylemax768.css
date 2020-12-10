@@ -133,7 +133,7 @@ main {
         } */
 
 .feature .item h4 {
-  font-size: 20px;
+  font-size: 16px;
   white-space: nowrap;
   margin-bottom: 0.5rem;
 }
@@ -265,13 +265,16 @@ main {
 }
 .card p {
   color: #999;
-  margin: 0 5px 5px;
+  margin: 0 0;
+  padding: 0 4px;
   font-weight: 300;
+  white-space: nowrap;
 }
 .card .price {
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   color: rgb(86, 182, 185);
   font-size: 16px;
+  white-space: nowrap;
 }
 .card-circle {
   display: none;
@@ -354,6 +357,7 @@ main {
   position: absolute;
   color: white;
   font-size: 20px;
+  white-space: nowrap;
 }
 .seperate .seper-link p {
   position: absolute;
@@ -449,7 +453,7 @@ footer {
   background-color: #eee;
 }
 .selector {
-  display: flex;
+  /* display: flex; */
 }
 
 footer ul,
