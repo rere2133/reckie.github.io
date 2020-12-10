@@ -445,8 +445,14 @@ article {
   /* margin: 0 auto; */
   /* margin: 1rem; */
 
-  background: url("../img/web-mockup-V3-front.png") no-repeat center center;
+  background: url("../img/weather.png") no-repeat center center;
   background-size: cover;
+  margin-bottom: 1rem;
+}
+.prj-img3 {
+  background: url("../img/Web-Showcase-Project-Presentation.png") no-repeat
+    center center;
+  background-size: 140%;
   margin-bottom: 1rem;
 }
 
