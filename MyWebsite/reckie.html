@@ -105,7 +105,7 @@
             <div class="attitude-text">
             <ul>
               <li>
-               擁有獨立解決問題的能力，利用關鍵字尋找資源，適時地問對問題、尋求幫助。 
+              擁有獨立解決問題的能力，利用關鍵字尋找資源，適時地問對問題、尋求幫助。 
               </li>
             </ul>
             </div>
@@ -367,10 +367,9 @@
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
- <script>
+<script>
     $(window).scroll(function(){
-      // console.log('scrollTop',$(this).scrollTop())
-      // console.log('skill',$('.bg-skill').offset().top)
+      console.log($(this).scrollTop());
       if($(this).scrollTop() >= $('.bg-skill').offset().top){
         $('.skill-sm-title').addClass('animate__animated animate__flipInX')
       }else{
@@ -389,7 +388,6 @@
     
     for(let i =0; i<5 ; i++){
       $('.nav-item').eq(i).click(function(){
-      console.log($(this).html())
       let scrollPoint = ''
       switch (i){
         case 0:
@@ -414,7 +412,7 @@
           behavior: "smooth" 
         }
       )
-    })
+      })
     }
 
     $('.prj-item:eq(0)').hover(function(){
@@ -426,9 +424,11 @@
     $('.prj-item:eq(2)').hover(function(){
       $(this).toggleClass('change2')
     })
-    
-   
-  </script>
+  
+    $('.nav-link').click(function(){
+      $('.navbar-toggler').click();
+    });
+</script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

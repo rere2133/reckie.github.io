@@ -21,14 +21,14 @@ a:hover {
   padding-left: 5rem;
 }
 iframe {
-  min-width: 400px;
+  /* min-width: 400px; */
   width: 95%;
   height: 20rem;
 }
 
 .nav {
   height: 8vh;
-  min-width: 400px;
+  /* min-width: 400px; */
   background-color: #4787bb;
   /* border-bottom: 1px solid #000; */
   box-shadow: 0 0 1px 1px #eee;
@@ -69,14 +69,14 @@ main {
   background: url("../img/iPhone\ 11\ Pro\ Free\ Premium\ Mockup\ PSD.png")
     center center;
   background-size: 120%;
-  min-width: 200px;
+  /* min-width: 200px; */
   min-height: 400px;
 }
 .projectImg2 {
   background: url("../img/127.0.0.1_5500_index.html\ \(3\).png") top center
     no-repeat;
   background-size: 90%;
-  min-width: 200px;
+  /* min-width: 200px; */
   min-height: 900px;
 }
 
@@ -143,7 +143,7 @@ aside {
   outline: 1px solid red;
 } */
 .tag {
-  min-width: 400px;
+  /* min-width: 400px; */
 }
 .tag h2 {
   font-size: 14px;
@@ -182,7 +182,7 @@ aside {
   .projectImg2 {
     margin: 0 auto;
     width: 100%;
-    min-width: 400px;
+    /* min-width: 400px; */
     min-height: 400px;
     background-size: 100%;
   }
@@ -221,7 +221,7 @@ aside {
   }
   .projectBody {
     padding: 0 2rem;
-    min-width: 400px;
+    /* min-width: 400px; */
   }
   .tag .tag-item {
     padding: 0 2rem;
