@@ -402,8 +402,7 @@ article {
 @media (max-width: 767px) {
   .prj-item::after,
   .prj-item:hover::after {
-    width: 0%;
-    background: transparent;
+    opacity: 0;
   }
 }
 
