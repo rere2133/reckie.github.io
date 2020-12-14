@@ -87,9 +87,15 @@ ul {
   min-width: 350px;
   min-height: 700px;
   position: relative;
-  background: url("../img/christin-hume-Hcfwew744z4-unsplash.jpg");
+  background: url("../img/christin-hume-Hcfwew744z4-unsplash.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+@media (max-width: 767px) {
+  .header-bg {
+    background-attachment: scroll;
+    /* background-position: center; */
+  }
 }
 
 .header-text {
@@ -111,14 +117,7 @@ ul {
   align-items: center;
   margin: 6rem auto;
 }
-@media (max-width: 767px) {
-  #Profile {
-    /* padding-top: 334px; */
-  }
-  /* .profile {
-    margin: 277px auto;
-  } */
-}
+
 .profile .d-flex {
   margin-bottom: 3rem;
   white-space: nowrap;
