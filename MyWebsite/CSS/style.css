@@ -94,7 +94,7 @@ ul {
 @media (max-width: 767px) {
   .header-bg {
     background-attachment: scroll;
-    /* background-position: center; */
+    background-position: center;
   }
 }
 
