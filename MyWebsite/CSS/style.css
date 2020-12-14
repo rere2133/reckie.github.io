@@ -105,7 +105,7 @@ ul {
 
 /* profile */
 #Profile {
-  padding-top: 10rem;
+  padding-top: 4rem;
 }
 .profile {
   align-items: center;
@@ -113,11 +113,11 @@ ul {
 }
 @media (max-width: 767px) {
   #Profile {
-    /* padding-top: 4rem; */
+    /* padding-top: 334px; */
   }
-  .profile {
-    margin: 2rem auto;
-  }
+  /* .profile {
+    margin: 277px auto;
+  } */
 }
 .profile .d-flex {
   margin-bottom: 3rem;
@@ -251,7 +251,7 @@ article {
 
 .bg-skill {
   position: absolute;
-  top: 200vh;
+  top: 320vh;
   background-color: #f8f8f8;
   padding-bottom: 4rem;
   transform: skewY(-6deg);
@@ -523,12 +523,20 @@ article {
   color: #373f51;
 }
 
+.card-item li,
 .card-item p {
   font-size: 16px;
   font-weight: 400;
   color: #373f51;
   line-height: 1.8rem;
   width: 100%;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.card-item .exp-sm-title {
+  font-weight: 500;
+  color: #4787bb;
+  margin-bottom: 0;
 }
 
 /* .autobi {

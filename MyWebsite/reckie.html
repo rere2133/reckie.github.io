@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reckie</title>
+  <title>Reckie's Website</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
   <link rel="stylesheet" href="CSS/icon/all.css" />
@@ -26,13 +26,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
+          <a class="nav-link" href="javascript:">Projects</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="javascript:">Profile</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="javascript:">Skill</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:">Projects </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="javascript:">Experience </a>
@@ -56,6 +56,30 @@
       </div>
     </header>
   <main>
+    <section id="Projects" class="project-part">
+      <div class="container">
+          <div class="prj-wrap row">
+            <div class="prj-item-main col d-flex">
+              <div class="prj-img">
+                <div>
+                <p>MY  PROJECTS</p>  
+                </div>
+                
+              </div>
+            </div>
+            <a href="./projectPage1.html" class="prj-item col d-flex">
+              <div class="prj-img prj-img1"></div>
+            </a>
+            
+            <a href="./projectPage2.html" class="prj-item col">
+              <div class="prj-img prj-img2"></div>
+            </a>
+            <a href="./projectPage3.html" class="prj-item col">
+              <div class="prj-img prj-img3"></div></a>
+            
+          </div> 
+      </div>
+    </section>
     <section id="Profile" class="container profile">
         <div class="d-flex align-items-baseline">
           <h2>核心特質</h2>
@@ -92,8 +116,7 @@
                 具專案管理思維。
               </li>
               <li>
-                擅長換位思考理解合作對象想法,並條
-                列式提出問題進行溝通。
+                擅長換位思考理解合作對象想法,並條列式提出問題進行溝通。
               </li>
             </ul>
           </div>
@@ -115,7 +138,7 @@
     <section id="Skill"  class="container skill">
       <div class="d-flex align-items-baseline">
         <h2>專業技能</h2>
-        <p class="caption ml-2">skills</p>
+        <p class="caption ml-2">skill</p>
       </div>
       <div class="row">
         <div class="skill-item col-12 col-md-4">
@@ -165,17 +188,19 @@
           </div>
           <ul class="skill-body">
             <li>
-              製作結合Podcast及電商網站Project
+              製作結合Podcast及電商網站平台
             </li>
             <li>
               React Hook - useState, useEffect
+            </li>
+            <li>
+              CSS in JS
             </li>
             <li>
               Lifecycle Methods
             </li> 
           </ul>
         </div>
-     
         <div class="skill-item col-12 col-md-4">
           <div class="skill-title flex">
             <!-- <svg class="icon-embed2">
@@ -241,32 +266,7 @@
         </div>
         
       </div>
-    </section>
-
-    <section id="Projects" class="project-part">
-      <div class="container">
-          <div class="prj-wrap row">
-            <div class="prj-item-main col d-flex">
-              <div class="prj-img">
-                <div>
-                <p>MY  PROJECTS</p>  
-                </div>
-                
-              </div>
-            </div>
-            <a href="./projectPage1.html" class="prj-item col d-flex">
-              <div class="prj-img prj-img1"></div>
-            </a>
-            
-            <a href="./projectPage2.html" class="prj-item col">
-              <div class="prj-img prj-img2"></div>
-            </a>
-            <a href="./projectPage3.html" class="prj-item col">
-              <div class="prj-img prj-img3"></div></a>
-            
-          </div> 
-      </div>
-    </section>
+    </section> 
 
     <section id="Experience" class="container">
       <div class="d-flex align-items-baseline">
@@ -278,13 +278,24 @@
       <div class="row">
         <div class="experience col-12">
           <div class="time">
-            <h4>2020 July -</h4>
+            <h4>2020 July - 2020 Nov.</h4>
           </div>
           <div class="card-item">
             <h3>資策會前端工程師訓練</h3>
-            <p>
-              參加資策會培訓,加深前端專業知識,系統化學習,並團隊合作完成畢業專題,專題從無到有包含設計、前端及後端,在過程中使我更了解專案建立流程以及可能會遇到的問題,對於未來與職場中的接軌極有幫助。
-            </p>
+            <ul>
+              <li>
+                <p class="exp-sm-title">系統化學習前端專業知識</p>
+                填補自學遇到的盲點，加深ＪＳ基本概念，並學習React 框架。
+              </li>
+              <li>
+                <p class="exp-sm-title">學習後端增加前端廣度</p>
+                課程包含Node.js、 PHP，透過後端語言實際撰寫商品後台，加深前後端資料傳送的概念及Restful API的操作 。
+              </li>
+              <li>
+                <p class="exp-sm-title">參與Posdcast電商平台網站製作，負責商品頁面及網站風格</p>
+                資策會畢業專題，從功能發想及聚焦、網頁風格設計、前端功能及互動到後端資料庫，打造方便收聽的Podcast平台，同時提供播客添購錄音設備及周邊商邊的販賣。
+              </li>
+            </ul>
           </div>
           <div class="time">
             <h4>2019 Mar. - 2020 May</h4>
@@ -354,13 +365,13 @@
       let scrollPoint = ''
       switch (i){
         case 0:
-        scrollPoint = '#Profile';
+        scrollPoint = '#Projects';
         break;
         case 1:
-        scrollPoint = '#Skill';
+        scrollPoint = '#Profile';
         break;
         case 2:
-        scrollPoint = '#Projects';
+        scrollPoint = '#Skill';
         break;
         case 3:
         scrollPoint = '#Experience';
@@ -371,7 +382,7 @@
       }
       window.scrollTo(
         {
-          top:$(scrollPoint).offset().top,
+          top:$(scrollPoint).offset().top + -227,
           behavior: "smooth" 
         }
       )
