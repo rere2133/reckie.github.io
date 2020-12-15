@@ -380,15 +380,23 @@
         scrollPoint = '#Contact';
         break;
       }
+      if($(window).width()<767){
       window.scrollTo(
         {
           top:$(scrollPoint).offset().top + -227,
           behavior: "smooth" 
         }
-      )
+      )}
+      else{
+        window.scrollTo(
+        {
+          top:$(scrollPoint).offset().top,
+          behavior: "smooth" 
+        }
+      )}
       })
     }
-
+  
     $('.prj-item:eq(0)').hover(function(){
       $(this).toggleClass('change0')
     })
@@ -398,10 +406,12 @@
     $('.prj-item:eq(2)').hover(function(){
       $(this).toggleClass('change2')
     })
-  
-    $('.nav-link').click(function(){
-      $('.navbar-toggler').click();
-    });
+    if($(window).width()<767){
+      $('.nav-link').click(function(){
+        $('.navbar-toggler').click();
+      });
+    }
+    
 </script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
